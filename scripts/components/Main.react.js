@@ -1,8 +1,14 @@
 var React = require('react');
+var RouteHandler = require('react-router').RouteHandler;
 
 var Main = React.createClass({
     render: function(){
-        return (<div>Hello World!</div>);
+        return (
+            <div>
+                <h2>Menu</h2>
+                <RouteHandler />
+            </div>
+        );
     }
 });
 
