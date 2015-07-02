@@ -1,0 +1,23 @@
+{
+  "name": "React-Router",
+  "version": "0.0.1",
+  "author": "Vinh Ngo",
+  "description": "Code designed to find the elusive red blue blur",
+  "dependencies": {
+    "flux": "^2.0.3",
+    "moment": "^2.10.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "react-time": "^2.5.0",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-js": "browserify scripts/app.js -o scripts/bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
