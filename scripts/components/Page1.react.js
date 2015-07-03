@@ -1,14 +1,15 @@
 var React = require('react');
 var Link = require('react-router').Link;
-var Welcome = React.createClass({
+
+var Page1 = React.createClass({
     render: function(){
         return (
             <div>
-                <p>Welcome to my React SPA!</p>
-                <p>Go to <Link to="page1">page 1</Link></p>
+                <p>Welcome to Page 1!</p>
+                <p>Back to <Link to="/">Welcome page</Link></p>
             </div>
         );
     }
 });
 
-module.exports = Welcome;
+module.exports = Page1;
